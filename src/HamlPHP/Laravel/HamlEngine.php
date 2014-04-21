@@ -7,7 +7,7 @@ class HamlEngine implements \Illuminate\View\Engines\EngineInterface
 {
     private $hamlphp;
     
-    public function __construct(\HamlPHP\HamlPHP $hamlphp)
+    public function __construct(\HamlPHP $hamlphp)
     {
         $this->hamlphp = $hamlphp;
     }
