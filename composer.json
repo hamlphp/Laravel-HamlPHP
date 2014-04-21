@@ -1,0 +1,29 @@
+{
+    "name": "hamlphp/laravel-hamlphp",
+    "description": "HamlPHP extension for Laravel Framework.",
+    "authors": [
+        {
+            "name": "Simo Niemelä",
+            "email": "simo.niemela@gmail.com"
+        }
+    ],
+    
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hamlphp/HamlPHP.git"
+        }
+    ],
+    
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "<4.2,>=4.0",
+        "illuminate/view": "<4.2,>=4.0",
+        "hamlphp/hamlphp": "dev-master"
+    },
+    
+    "autoload": {
+        "psr-4": {"HamlPHP\\Laravel\\": "src/HamlPHP/Laravel/"}
+    }
+}
